@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/NotLovelyChild/JackPicker.git", :tag => “{0.0.1}” }
+  s.source       = { :git => "https://github.com/NotLovelyChild/JackPicker.git", :commit => “0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea” }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
