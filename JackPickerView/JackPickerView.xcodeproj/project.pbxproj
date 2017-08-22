@@ -15,7 +15,7 @@
 		040348B21EEC456000D89A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040348B11EEC456000D89A1B /* Assets.xcassets */; };
 		040348B51EEC456000D89A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040348B31EEC456000D89A1B /* LaunchScreen.storyboard */; };
 		040348C01EEC456000D89A1B /* JackPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040348BF1EEC456000D89A1B /* JackPickerViewUITests.m */; };
-		040348CC1EEC459700D89A1B /* JackPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040348CB1EEC459700D89A1B /* JackPickerView.m */; };
+		0486AE1E1F4C0921004E37C9 /* JackPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486AE1D1F4C0921004E37C9 /* JackPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 		040348BB1EEC456000D89A1B /* JackPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040348BF1EEC456000D89A1B /* JackPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackPickerViewUITests.m; sourceTree = "<group>"; };
 		040348C11EEC456000D89A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040348CA1EEC459700D89A1B /* JackPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JackPickerView.h; sourceTree = "<group>"; };
-		040348CB1EEC459700D89A1B /* JackPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JackPickerView.m; sourceTree = "<group>"; };
+		0486AE1C1F4C0921004E37C9 /* JackPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JackPickerView.h; path = JCPikcer/JackPickerView.h; sourceTree = "<group>"; };
+		0486AE1D1F4C0921004E37C9 /* JackPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JackPickerView.m; path = JCPikcer/JackPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +86,11 @@
 		040348A11EEC455F00D89A1B /* JackPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				0486AE181F4C08E5004E37C9 /* JCPikcer */,
 				040348A51EEC455F00D89A1B /* AppDelegate.h */,
 				040348A61EEC455F00D89A1B /* AppDelegate.m */,
 				040348A81EEC455F00D89A1B /* ViewController.h */,
 				040348A91EEC455F00D89A1B /* ViewController.m */,
-				040348CA1EEC459700D89A1B /* JackPickerView.h */,
-				040348CB1EEC459700D89A1B /* JackPickerView.m */,
 				040348AB1EEC455F00D89A1B /* Main.storyboard */,
 				040348B11EEC456000D89A1B /* Assets.xcassets */,
 				040348B31EEC456000D89A1B /* LaunchScreen.storyboard */,
@@ -117,6 +116,15 @@
 				040348C11EEC456000D89A1B /* Info.plist */,
 			);
 			path = JackPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		0486AE181F4C08E5004E37C9 /* JCPikcer */ = {
+			isa = PBXGroup;
+			children = (
+				0486AE1C1F4C0921004E37C9 /* JackPickerView.h */,
+				0486AE1D1F4C0921004E37C9 /* JackPickerView.m */,
+			);
+			name = JCPikcer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +232,7 @@
 				040348AA1EEC455F00D89A1B /* ViewController.m in Sources */,
 				040348B01EEC456000D89A1B /* JackPickerView.xcdatamodeld in Sources */,
 				040348A71EEC455F00D89A1B /* AppDelegate.m in Sources */,
-				040348CC1EEC459700D89A1B /* JackPickerView.m in Sources */,
+				0486AE1E1F4C0921004E37C9 /* JackPickerView.m in Sources */,
 				040348A41EEC455F00D89A1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
